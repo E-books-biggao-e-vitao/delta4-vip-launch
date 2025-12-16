@@ -5,7 +5,7 @@ interface WhatsAppButtonProps {
   size?: "default" | "large";
 }
 
-const WHATSAPP_LINK = "https://chat.whatsapp.com/SEU_LINK_AQUI"; // Substitua pelo seu link
+const WHATSAPP_LINK = "https://chat.whatsapp.com/IASzmVYYMaXEZ0wo8a5TUj";
 
 const WhatsAppButton = ({ className = "", size = "default" }: WhatsAppButtonProps) => {
   const sizeClasses = size === "large" 
